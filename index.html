@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="loader">
+      <h2 class="element"></h2>
+      <div class="lds-ellipsis">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- Navbar-section -->
+    <header>
+      <figure class="wp-block-image size-large">
+        <img
+          src="https://dasturchiliknicode.files.wordpress.com/2021/11/20211121_1152066711992790057915396.jpg?w=463"
+          alt="Xcolor brendi"
+          class="wp-image-85"
+          width="460"
+          height="160"
+        />
+      </figure>
+      <div class="menu">
+        <nav>
+          <ul>
+            <li>
+              <a href="#" style="border-bottom: 2px solid red">bosh sahifa</a>
+            </li>
+            <li><a href="#">bo‘yoqlar</a></li>
+            <li><a href="#">kontaktlar</a></li>
+          </ul>
+        </nav>
+        <button class="btn-modal">Ro‘yxatdan o‘tish</button>
+      </div>
+      <hr />
+    </header>
+    <!--! Navbar-section -->
+    <!-- Header-section -->
+    <div class="header">
+      <div class="header-title">Bizda mavjud ranglar</div>
+      <div class="hidden">
+        <div class="header-content">
+          <figure class="header-item">
+            <img
+              src="./image-png/png-kraska.png"
+              alt="qora"
+              class="header-image"
+            />
+            <div class="img-title">Qora rang</div>
+          </figure>
+          <figure class="header-item">
+            <img
+              src="./image-png/png-kraska1.png"
+              alt="qora"
+              class="header-image"
+            />
+            <div class="img-title">Qora rang</div>
+          </figure>
+          <figure class="header-item">
+            <img
+              src="./image-png/png-transparent-acrylic-paint-abstract-art-illustration-gold-wall-paint-brown-textile-watercolor-painting-texture-photography-thumbnail.png"
+              alt="qora"
+              class="header-image"
+            />
+            <div class="img-title">Qora rang</div>
+          </figure>
+          <figure class="header-item">
+            <img
+              src="./image-png/png-transparent-paint-bucket-graphy-red-bucket-of-paint-watercolor-painting-photography-handpainted-flowers-thumbnail.png"
+              alt="qizil"
+              class="header-image"
+            />
+            <div class="img-title">Qizil rang</div>
+          </figure>
+          <figure class="header-item">
+            <img
+              src="./image-png/png-transparent-paint-color-illustration-graphy-illustration-colorful-paint-watercolor-painting-color-splash-color-pencil-thumbnail.png"
+              alt="qizil"
+              class="header-image"
+            />
+            <div class="img-title">Qizil rang</div>
+          </figure>
+          <figure class="header-item">
+            <img
+              src="./image-png/png-transparent-paintbrush-green-paint-brush-leaf-grass-brush.png"
+              alt="qizil"
+              class="header-image"
+            />
+            <div class="img-title">Qizil rang</div>
+          </figure>
+          <figure class="header-item">
+            <img
+              src="./image-png/png-kraska.png"
+              alt="ko‘k"
+              class="header-image"
+            />
+            <div class="img-title">Sariq rang</div>
+          </figure>
+          <figure class="header-item">
+            <img
+              src="./image-png/png-kraska1.png"
+              alt="ko‘k"
+              class="header-image"
+            />
+            <div class="img-title">Ko'k rang</div>
+          </figure>
+          <figure class="header-item">
+            <img
+              src="./image-png/png-transparent-acrylic-paint-abstract-art-illustration-gold-wall-paint-brown-textile-watercolor-painting-texture-photography-thumbnail.png"
+              alt="ko‘k"
+              class="header-image"
+            />
+            <div class="img-title">Yashil rang</div>
+          </figure>
+
+          <figure class="header-item">
+            <img
+              src="./image-png/png-transparent-paint-bucket-graphy-red-bucket-of-paint-watercolor-painting-photography-handpainted-flowers-thumbnail.png"
+              alt="Kulrang"
+              class="header-image"
+            />
+            <div class="img-title">Oq rang</div>
+          </figure>
+        </div>
+      </div>
+      <div class="prev">&#10094;</div>
+      <div class="next">&#10095;</div>
+      <div class="header-dots">
+        <div class="dot" onclick="currentSlide(1)"></div>
+        <div class="dot" onclick="currentSlide(2)"></div>
+        <div class="dot" onclick="currentSlide(3)"></div>
+      </div>
+      <h3 class="header-content_title">Bizning mahsulotlar</h3>
+      <div class="header-content_two">
+        <div class="header-two_item">
+          <img
+            src="https://dasturchiliknicode.files.wordpress.com/2021/11/img_20211121_142407_489-12132197066749310785.jpg?w=1024"
+            alt="Kulrang"
+            class="header-two_image"
+          />
+          <div class="category">500 ml.</div>
+          <div class="category">1000 ml.</div>
+          <div class="category">1500 ml.</div>
+          <br />
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <div class="price"><span>$15.00</span>aksiya $11.99</div>
+          <div class="header-btn">Buyurtma</div>
+        </div>
+        <div class="header-two_item">
+          <img
+            src="https://dasturchiliknicode.files.wordpress.com/2021/11/img_20211121_142407_489-12132197066749310785.jpg?w=1024"
+            alt="Kulrang"
+            class="header-two_image"
+          />
+          <div class="category">500 ml.</div>
+          <div class="category">1000 ml.</div>
+          <div class="category">1500 ml.</div>
+          <br />
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <div class="price"><span>$15.00</span>aksiya $11.99</div>
+          <div class="header-btn">Buyurtma</div>
+        </div>
+        <div class="header-two_item">
+          <img
+            src="https://dasturchiliknicode.files.wordpress.com/2021/11/img_20211121_142407_489-12132197066749310785.jpg?w=1024"
+            alt="Kulrang"
+            class="header-two_image"
+          />
+          <div class="category">500 ml.</div>
+          <div class="category">1000 ml.</div>
+          <div class="category">1500 ml.</div>
+          <br />
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <div class="price"><span>$15.00</span>aksiya $11.99</div>
+          <div class="header-btn">Buyurtma</div>
+        </div>
+        <div class="header-two_item">
+          <img
+            src="https://dasturchiliknicode.files.wordpress.com/2021/11/img_20211121_142407_489-12132197066749310785.jpg?w=1024"
+            alt="Kulrang"
+            class="header-two_image"
+          />
+          <div class="category">500 ml.</div>
+          <div class="category">1000 ml.</div>
+          <div class="category">1500 ml.</div>
+          <br />
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star star-acc"></i>
+          <div class="price"><span>$15.00</span>aksiya $11.99</div>
+          <div class="header-btn">Buyurtma</div>
+        </div>
+        <div class="header-two_item">
+          <img
+            src="https://dasturchiliknicode.files.wordpress.com/2021/11/img_20211121_142407_489-12132197066749310785.jpg?w=1024"
+            alt="Kulrang"
+            class="header-two_image"
+          />
+          <div class="category">500 ml.</div>
+          <div class="category">1000 ml.</div>
+          <div class="category">1500 ml.</div>
+          <br />
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <div class="price"><span>$15.00</span>aksiya $11.99</div>
+          <div class="header-btn">Buyurtma</div>
+        </div>
+        <div class="header-two_item">
+          <img
+            src="https://dasturchiliknicode.files.wordpress.com/2021/11/img_20211121_142407_489-12132197066749310785.jpg?w=1024"
+            alt="Kulrang"
+            class="header-two_image"
+          />
+          <div class="category">500 ml.</div>
+          <div class="category">1000 ml.</div>
+          <div class="category">1500 ml.</div>
+          <br />
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <div class="price"><span>$15.00</span>aksiya $11.99</div>
+          <div class="header-btn">Buyurtma</div>
+        </div>
+        <div class="header-two_item">
+          <img
+            src="https://dasturchiliknicode.files.wordpress.com/2021/11/img_20211121_142407_489-12132197066749310785.jpg?w=1024"
+            alt="Kulrang"
+            class="header-two_image"
+          />
+          <div class="category">500 ml.</div>
+          <div class="category">1000 ml.</div>
+          <div class="category">1500 ml.</div>
+          <br />
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star star-acc"></i>
+          <div class="price"><span>$15.00</span>aksiya $11.99</div>
+          <div class="header-btn">Buyurtma</div>
+        </div>
+        <div class="header-two_item">
+          <img
+            src="https://dasturchiliknicode.files.wordpress.com/2021/11/img_20211121_142407_489-12132197066749310785.jpg?w=1024"
+            alt="Kulrang"
+            class="header-two_image"
+          />
+          <div class="category">500 ml.</div>
+          <div class="category">1000 ml.</div>
+          <div class="category">1500 ml.</div>
+          <br />
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star"></i>
+          <div class="price"><span>$15.00</span>aksiya $11.99</div>
+          <div class="header-btn">Buyurtma</div>
+        </div>
+        <div class="header-two_item">
+          <img
+            src="https://dasturchiliknicode.files.wordpress.com/2021/11/img_20211121_142407_489-12132197066749310785.jpg?w=1024"
+            alt="Kulrang"
+            class="header-two_image"
+          />
+          <div class="category">500 ml.</div>
+          <div class="category">1000 ml.</div>
+          <div class="category">1500 ml.</div>
+          <br />
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <div class="price"><span>$15.00</span>aksiya $11.99</div>
+          <div class="header-btn">Buyurtma</div>
+        </div>
+        <div class="header-two_item">
+          <img
+            src="https://dasturchiliknicode.files.wordpress.com/2021/11/img_20211121_142407_489-12132197066749310785.jpg?w=1024"
+            alt="Kulrang"
+            class="header-two_image"
+          />
+          <div class="category">500 ml.</div>
+          <div class="category">1000 ml.</div>
+          <div class="category">1500 ml.</div>
+          <br />
+          <i class="fas fa-star star-acc"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <div class="price"><span>$15.00</span>aksiya $11.99</div>
+          <div class="header-btn">Buyurtma</div>
+        </div>
+      </div>
+    </div>
+    <!-- ! Header-section -->
+    <!-- Modal-section -->
+    <div class="modal-section">
+      <div class="modal">
+        <div class="modal-title">Savol yuborish</div>
+        <div class="close">&times;</div>
+        <form action="">
+          <input class="modal-input" type=" text" placeholder="Ismingiz" />
+          <input
+            class="modal-input"
+            type="number"
+            placeholder="Telefon raqamingiz"
+          />
+          <textarea
+            placeholder="Savolni yozing..."
+            name="text"
+            id=""
+          ></textarea>
+          <button class="modal-btn" type="submit">Yuborish</button>
+        </form>
+      </div>
+    </div>
+    <!-- ! Modal-section -->
+    <!-- Footer-section -->
+    <footer class="footer">
+      <div class="foot">
+        <div class="social-media">
+          <h3>Ijtimoiy tarmoqlar</h3>
+          <ul>
+            <li><i class="fab fa-telegram"></i><a href="#">Telegram</a></li>
+            <li><i class="fab fa-facebook"></i><a href="#">Facebook</a></li>
+            <li><i class="fab fa-instagram"></i><a href="#">Instagram</a></li>
+            <li><i class="fab fa-youtube"></i><a href="#">You tube</a></li>
+            <li><i class="fab fa-twitter"></i><a href="#">Twitter</a></li>
+          </ul>
+        </div>
+        <div class="help">
+          <h3>Yordam markazi</h3>
+          <ul>
+            <li><a href="#">Ko‘p so‘raladigan savollar</a></li>
+            <li><a href="#">Yetkazib berish haqida</a></li>
+            <li><a href="#">To‘lov turlari</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="footer-end">&copy;&nbsp;2021&nbsp;XCOLOR</p>
+    </footer>
+    <script src="typed.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
