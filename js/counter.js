@@ -26,6 +26,7 @@ function counter() {
           parseInt(counter.innerText) === 1
         ) {
           e.target.closest(".cart-item").remove();
+          e.target.hasAttribute("data-cart").style.color = "white";
         }
         toggleCardStatus();
         calcCartPrice();

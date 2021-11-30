@@ -39,7 +39,7 @@ function renderPro() {
 									</div>
 								</div>
 
-								<button data-cart type="button" class="btn btn-block btn-outline-warning">+ savatga qo'shish</button>
+								<button data-cart  type="button" class="btn btn-block btn-outline-warning">+ savatga qo'shish</button>
 
 							</div>
 						</div>
