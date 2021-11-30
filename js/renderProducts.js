@@ -16,7 +16,7 @@ function renderPro() {
       const productHTML = `
     <div class="col-md-2">
 						<div class="card mb-4" data-id="${item.id}">
-						<i class="fas fa-heart" id='heart'></i>
+						<i class="fas fa-heart" data-action='heart'></i>
 	<img class="product-img" src="./img-i/${item.imgSrc}" alt="">
 							<div class="card-body text-center">
 								<h4 class="item-title">${item.title}</h4>

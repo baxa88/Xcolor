@@ -127,7 +127,6 @@ body {
   width: 100%;
   color: #fff;
   border: none;
-  outline: none;
 }
 
 .btn-outline-warning:hover {
@@ -542,6 +541,9 @@ footer p {
     margin: 0.5rem;
   }
 
+  .btn-outline-warning {
+    background-color: rgb(170, 144, 58);
+  }
   .img-title {
     font-size: 10px;
   }

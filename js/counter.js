@@ -1,17 +1,12 @@
 function counter() {
   window.addEventListener("click", function (e) {
-    const heart = document.querySelectorAll("#heart");
-    console.log(heart);
-    heart.forEach((item) => {
-      item.addEventListener("click", () => {
-        if (item.style.color === "red") {
-          item.style.color = "black";
-        } else {
-          item.style.color = "red";
-        }
-      });
-    });
-
+    if (e.target.dataset.action === "heart") {
+      if (e.target.style.color == "red") {
+        e.target.style.color = "black";
+      } else {
+        e.target.style.color = "red";
+      }
+    }
     let counter;
     if (
       e.target.dataset.action === "plus" ||
