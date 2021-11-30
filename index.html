@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>internet-magazin</title>
+    <link rel="stylesheet" href="./botstrap-5/css/bootstrap.min.css">
     <link rel="stylesheet" href="./style.css" />
     <link
       rel="stylesheet"
@@ -26,34 +27,17 @@
     </div>
     <!-- Navbar-section -->
     <header>
-      <figure class="wp-block-image size-large">
-        <img
-          src="./image-png/dasturchiliknicode_files_wordpress_com-20211121_1152066711992790057915396.png"
-          alt="Xcolor brendi"
-          class="wp-image-85"
-          width="460"
-          height="160"
-        />
-      </figure>
-      <div class="menu">
-        <nav>
-          <ul>
-            <li>
-              <a href="#" style="border-bottom: 2px solid red">bosh sahifa</a>
-            </li>
-            <li><a href="#">bo‘yoqlar</a></li>
-            <li><a href="#">kontaktlar</a></li>
-          </ul>
-        </nav>
+      
+     
         <button class="btn-modal">
           <i class="fas fa-user-plus"></i>
         </button>
       </div>
-      <hr />
+      
     </header>
     <!--! Navbar-section -->
     <!-- Header-section -->
-    <div class="header">
+    <div class="header-hed">
       <div class="header-title">Bizda mavjud ranglar</div>
       <div class="hidden">
         <div class="header-content">
@@ -63,7 +47,7 @@
               alt="qora"
               class="header-image"
             />
-            <div class="img-title">Havorang</div>
+            <div class="img-title">Havo rang</div>
           </figure>
           <figure class="header-item">
             <img
@@ -71,7 +55,7 @@
               alt="qora"
               class="header-image"
             />
-            <div class="img-title">Yashil</div>
+            <div class="img-title">Yashil rang</div>
           </figure>
           <figure class="header-item">
             <img
@@ -87,7 +71,7 @@
               alt="qizil"
               class="header-image"
             />
-            <div class="img-title">Pushti</div>
+            <div class="img-title">Pushti rang</div>
           </figure>
           <figure class="header-item">
             <img
@@ -141,211 +125,82 @@
       </div>
       <div class="prev">&#10094;</div>
       <div class="next">&#10095;</div>
-      <div class="header-dots">
-        <div class="dot" onclick="currentSlide(1)"></div>
-        <div class="dot" onclick="currentSlide(2)"></div>
-        <div class="dot" onclick="currentSlide(3)"></div>
-      </div>
+     
       <h3 class="header-content_title">Bizning mahsulotlar</h3>
-      <div class="header-content_two">
-        <div class="header-two_item">
-          <i class="fas fa-heart"></i>
-          <img
-            src="./image-png/mahsulot/photo_2021-11-24_17-51-22.jpg"
-            alt="Kulrang"
-            class="header-two_image"
-          />
-          <div class="category">500 ml.</div>
-          <div class="category">1000 ml.</div>
-          <div class="category">1500 ml.</div>
-          <br />
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <div class="price"><span>$15.00</span>aksiya $11.99</div>
-          <div class="header-btn">Buyurtma</div>
+      <p class='header-paraghrap'>Bizda uydan chiqmasdan istalgan rangdagi bo'yoq maxsulotlarini <br>
+        topish va sotib olish imkoniyati . Endi ustalardan o'zimiz habar olamiz.</p>
+       
         </div>
-        <div class="header-two_item">
-          <i class="fas fa-heart"></i>
-          <img
-            src="./image-png/mahsulot/photo_2021-11-24_17-53-20.jpg"
-            alt="Kulrang"
-            class="header-two_image"
-          />
-          <div class="category">500 ml.</div>
-          <div class="category">1000 ml.</div>
-          <div class="category">1500 ml.</div>
-          <br />
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <div class="price"><span>$15.00</span>aksiya $11.99</div>
-          <div class="header-btn">Buyurtma</div>
+        <header class="header">
+         
+        </header>
+      
+        <div class="container-fluid mb-2 ">
+          <div class="row">
+            <div class="col-md-10 product-menu">
+              <div class="row" id='products-container'>
+      
+                
+                
+              </div>
+            </div>
+            <div class="col-md-2 korzina-menu">
+      
+              <!-- Savatcha -->
+              <div class="card ">
+                <div class="card-body">
+                  <h5 class="card-title">Sizning xaridingiz</h4>
+                  <div data-cart-empty class="alert alert-secondary" role="alert">
+                    Savatcha bo'sh
+                  </div>
+                  <!-- cart-wrapper -->
+                  <div class="cart-wrapper">
+      
+                    <!-- Cart item -->
+                    
+                    <!-- // Cart item -->
+      
+                  </div>
+                  <!-- // cart-wrapper -->
+      
+                  <!-- jami summa -->
+                  <div class="cart-total">
+                    <p data-cart-delivery class='none'>
+                      <span class="h5">Yetkazib berish:</span>
+                       <span class="delivery-cost free">55 000 so'm</span><br>
+                      <span class='small'>harid 499000 so'mdan oshsa yetkazish bepul</span>
+                      </p>
+                    <p><span class="h5">jami summa:</span> <span class="total-price">0</span> <span class="rouble">so'm</span></p>
+                  </div>
+                 
+      
+                </div>
+      
+                <!-- zakaz berish -->
+                <div id="order-form" class="card-body none border-top">
+                  <h5 class="card-title">Sotib olish</h4>
+                  <form>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="telefon raqamingiz">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Harid</button>
+                  </form>
+                </div>
+                <!-- // zakaz berish -->
+      
+              </div>
+              <!-- // Savatcha -->
+      
+      
+            </div>
+          </div>
         </div>
-        <div class="header-two_item">
-          <i class="fas fa-heart"></i>
-          <img
-            src="./image-png/mahsulot/photo_2021-11-24_17-53-30.jpg"
-            alt="Kulrang"
-            class="header-two_image"
-          />
-          <div class="category">500 ml.</div>
-          <div class="category">1000 ml.</div>
-          <div class="category">1500 ml.</div>
-          <br />
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <div class="price"><span>$15.00</span>aksiya $11.99</div>
-          <div class="header-btn">Buyurtma</div>
-        </div>
-        <div class="header-two_item">
-          <i class="fas fa-heart"></i>
-          <img
-            src="./image-png/mahsulot/photo_2021-11-24_17-53-43.jpg"
-            alt="Kulrang"
-            class="header-two_image"
-          />
-          <div class="category">500 ml.</div>
-          <div class="category">1000 ml.</div>
-          <div class="category">1500 ml.</div>
-          <br />
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star star-acc"></i>
-          <div class="price"><span>$15.00</span>aksiya $11.99</div>
-          <div class="header-btn">Buyurtma</div>
-        </div>
-        <div class="header-two_item">
-          <i class="fas fa-heart"></i>
-          <img
-            src="./image-png/mahsulot/photo_2021-11-24_17-53-50.jpg"
-            alt="Kulrang"
-            class="header-two_image"
-          />
-          <div class="category">500 ml.</div>
-          <div class="category">1000 ml.</div>
-          <div class="category">1500 ml.</div>
-          <br />
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <div class="price"><span>$15.00</span>aksiya $11.99</div>
-          <div class="header-btn">Buyurtma</div>
-        </div>
-        <div class="header-two_item">
-          <i class="fas fa-heart"></i>
-          <img
-            src="./image-png/mahsulot/photo_2021-11-24_17-53-57.jpg"
-            alt="Kulrang"
-            class="header-two_image"
-          />
-          <div class="category">500 ml.</div>
-          <div class="category">1000 ml.</div>
-          <div class="category">1500 ml.</div>
-          <br />
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <div class="price"><span>$15.00</span>aksiya $11.99</div>
-          <div class="header-btn">Buyurtma</div>
-        </div>
-        <div class="header-two_item">
-          <i class="fas fa-heart"></i>
-          <img
-            src="./image-png/mahsulot/photo_2021-11-24_17-54-07.jpg"
-            alt="Kulrang"
-            class="header-two_image"
-          />
-          <div class="category">500 ml.</div>
-          <div class="category">1000 ml.</div>
-          <div class="category">1500 ml.</div>
-          <br />
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star star-acc"></i>
-          <div class="price"><span>$15.00</span>aksiya $11.99</div>
-          <div class="header-btn">Buyurtma</div>
-        </div>
-        <div class="header-two_item">
-          <i class="fas fa-heart"></i>
-          <img
-            src="./image-png/mahsulot/photo_2021-11-24_17-54-17.jpg"
-            alt="Kulrang"
-            class="header-two_image"
-          />
-          <div class="category">500 ml.</div>
-          <div class="category">1000 ml.</div>
-          <div class="category">1500 ml.</div>
-          <br />
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star"></i>
-          <div class="price"><span>$15.00</span>aksiya $11.99</div>
-          <div class="header-btn">Buyurtma</div>
-        </div>
-        <div class="header-two_item">
-          <i class="fas fa-heart"></i>
-          <img
-            src="./image-png/mahsulot/photo_2021-11-24_17-54-30.jpg"
-            alt="Kulrang"
-            class="header-two_image"
-          />
-          <div class="category">500 ml.</div>
-          <div class="category">1000 ml.</div>
-          <div class="category">1500 ml.</div>
-          <br />
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <div class="price"><span>$15.00</span>aksiya $11.99</div>
-          <div class="header-btn">Buyurtma</div>
-        </div>
-        <div class="header-two_item">
-          <i class="fas fa-heart"></i>
-          <img
-            src="./image-png/mahsulot/photo_2021-11-24_17-54-39.jpg"
-            alt="Kulrang"
-            class="header-two_image"
-          />
-          <div class="category">500 ml.</div>
-          <div class="category">1000 ml.</div>
-          <div class="category">1500 ml.</div>
-          <br />
-          <i class="fas fa-star star-acc"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <div class="price"><span>$15.00</span>aksiya $11.99</div>
-          <div class="header-btn">Buyurtma</div>
-        </div>
-      </div>
-    </div>
     <!-- ! Header-section -->
     <!-- Modal-section -->
     <div class="modal-section">
-      <div class="modal">
-        <div class="modal-title">Savol yuborish</div>
-        <div class="close">&times;</div>
+      <div class="modal-item">
+        <div class="modal-title">Biz bilan aloqa</div>
+        <div class="close-modal">&times;</div>
         <form action="">
           <input class="modal-input" type=" text" placeholder="Ismingiz" />
           <input
@@ -354,7 +209,7 @@
             placeholder="Telefon raqamingiz"
           />
           <textarea
-            placeholder="Savolni yozing..."
+            placeholder="Sizni qiziqtirgan ..."
             name="text"
             id=""
           ></textarea>
@@ -393,209 +248,12 @@
       </div>
     </div>
     <!-- ! Wrapper-section -->
-    <!-- Header-three-section -->
-    <h3 class="header-content_title">Bizning mahsulotlar</h3>
-    <div class="header-content_two">
-      <div class="header-two_item">
-        <i class="fas fa-heart"></i>
-        <img
-          src="./image-png/mahsulot/photo_2021-11-24_17-56-21.jpg"
-          alt="Kulrang"
-          class="header-two_image"
-        />
-        <div class="category">500 ml.</div>
-        <div class="category">1000 ml.</div>
-        <div class="category">1500 ml.</div>
-        <br />
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <div class="price"><span>$15.00</span>aksiya $11.99</div>
-        <div class="header-btn">Buyurtma</div>
-      </div>
-      <div class="header-two_item">
-        <i class="fas fa-heart"></i>
-        <img
-          src="./image-png/mahsulot/photo_2021-11-24_17-56-17.jpg"
-          alt="Kulrang"
-          class="header-two_image"
-        />
-        <div class="category">500 ml.</div>
-        <div class="category">1000 ml.</div>
-        <div class="category">1500 ml.</div>
-        <br />
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <div class="price"><span>$15.00</span>aksiya $11.99</div>
-        <div class="header-btn">Buyurtma</div>
-      </div>
-      <div class="header-two_item">
-        <i class="fas fa-heart"></i>
-        <img
-          src="./image-png/mahsulot/photo_2021-11-24_17-56-09.jpg"
-          alt="Kulrang"
-          class="header-two_image"
-        />
-        <div class="category">500 ml.</div>
-        <div class="category">1000 ml.</div>
-        <div class="category">1500 ml.</div>
-        <br />
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <div class="price"><span>$15.00</span>aksiya $11.99</div>
-        <div class="header-btn">Buyurtma</div>
-      </div>
-      <div class="header-two_item">
-        <i class="fas fa-heart"></i>
-        <img
-          src="./image-png/mahsulot/photo_2021-11-24_17-56-05.jpg"
-          alt="Kulrang"
-          class="header-two_image"
-        />
-        <div class="category">500 ml.</div>
-        <div class="category">1000 ml.</div>
-        <div class="category">1500 ml.</div>
-        <br />
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star star-acc"></i>
-        <div class="price"><span>$15.00</span>aksiya $11.99</div>
-        <div class="header-btn">Buyurtma</div>
-      </div>
-      <div class="header-two_item">
-        <i class="fas fa-heart"></i>
-        <img
-          src="./image-png/mahsulot/photo_2021-11-24_17-56-02.jpg"
-          alt="Kulrang"
-          class="header-two_image"
-        />
-        <div class="category">500 ml.</div>
-        <div class="category">1000 ml.</div>
-        <div class="category">1500 ml.</div>
-        <br />
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <div class="price"><span>$15.00</span>aksiya $11.99</div>
-        <div class="header-btn">Buyurtma</div>
-      </div>
-      <div class="header-two_item">
-        <i class="fas fa-heart"></i>
-        <img
-          src="./image-png/mahsulot/photo_2021-11-24_17-55-58.jpg"
-          alt="Kulrang"
-          class="header-two_image"
-        />
-        <div class="category">500 ml.</div>
-        <div class="category">1000 ml.</div>
-        <div class="category">1500 ml.</div>
-        <br />
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <div class="price"><span>$15.00</span>aksiya $11.99</div>
-        <div class="header-btn">Buyurtma</div>
-      </div>
-      <div class="header-two_item">
-        <i class="fas fa-heart"></i>
-        <img
-          src="./image-png/mahsulot/photo_2021-11-24_17-55-51.jpg"
-          alt="Kulrang"
-          class="header-two_image"
-        />
-        <div class="category">500 ml.</div>
-        <div class="category">1000 ml.</div>
-        <div class="category">1500 ml.</div>
-        <br />
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star star-acc"></i>
-        <div class="price"><span>$15.00</span>aksiya $11.99</div>
-        <div class="header-btn">Buyurtma</div>
-      </div>
-      <div class="header-two_item">
-        <i class="fas fa-heart"></i>
-        <img
-          src="./image-png/mahsulot/photo_2021-11-24_17-54-55.jpg"
-          alt="Kulrang"
-          class="header-two_image"
-        />
-        <div class="category">500 ml.</div>
-        <div class="category">1000 ml.</div>
-        <div class="category">1500 ml.</div>
-        <br />
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star"></i>
-        <div class="price"><span>$15.00</span>aksiya $11.99</div>
-        <div class="header-btn">Buyurtma</div>
-      </div>
-      <div class="header-two_item">
-        <i class="fas fa-heart"></i>
-        <img
-          src="./image-png/mahsulot/photo_2021-11-24_17-54-50.jpg"
-          alt="Kulrang"
-          class="header-two_image"
-        />
-        <div class="category">500 ml.</div>
-        <div class="category">1000 ml.</div>
-        <div class="category">1500 ml.</div>
-        <br />
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <div class="price"><span>$15.00</span>aksiya $11.99</div>
-        <div class="header-btn">Buyurtma</div>
-      </div>
-      <div class="header-two_item">
-        <i class="fas fa-heart"></i>
-        <img
-          src="./image-png/mahsulot/photo_2021-11-24_17-54-44.jpg"
-          alt="Kulrang"
-          class="header-two_image"
-        />
-        <div class="category">500 ml.</div>
-        <div class="category">1000 ml.</div>
-        <div class="category">1500 ml.</div>
-        <br />
-        <i class="fas fa-star star-acc"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <div class="price"><span>$15.00</span>aksiya $11.99</div>
-        <div class="header-btn">Buyurtma</div>
-      </div>
-    </div>
-    <!-- ! Header-three-section -->
+    
     <!-- Timer-section -->
     <div class="promotion-timer">
       <div class="promotion-item">
-        <div class="promotion-market">Bizni magazin</div>
-        <video
-          controls
-          src="./image-png/video/video_2021-11-24_21-49-38.mp4"
-        ></video>
+        <div class="promotion-market">Bizni manzil</div>
+        <img class='promotion-img' src="./image-png/map.jpg" alt="">
       </div>
       <div class="timer">
         <div class="promotion-title">
@@ -614,17 +272,17 @@
     <footer class="footer">
       <div class="foot">
         <div class="social-media">
-          <h3>Ijtimoiy tarmoqlar</h3>
+          <h5>Ijtimoiy tarmoqlar</h5>
           <ul>
             <li><i class="fab fa-telegram"></i><a href="#">Telegram</a></li>
-            <li><i class="fab fa-facebook"></i><a href="#">Facebook</a></li>
-            <li><i class="fab fa-instagram"></i><a href="#">Instagram</a></li>
-            <li><i class="fab fa-youtube"></i><a href="#">You tube</a></li>
-            <li><i class="fab fa-twitter"></i><a href="#">Twitter</a></li>
+            <li><i class="fab fa-facebook-square"></i><a href="#">Facebook</a></li>
+            <li><i class="fab fa-instagram-square"></i><a href="#">Instagram</a></li>
+            <li><i class="fab fa-youtube-square"></i><a href="#">You tube</a></li>
+            <li><i class="fab fa-twitter-square"></i><a href="#">Twitter</a></li>
           </ul>
         </div>
         <div class="help">
-          <h3>Yordam markazi</h3>
+          <h5>Yordam markazi</h5>
           <ul>
             <li><a href="#">Ko‘p so‘raladigan savollar</a></li>
             <li><a href="#">Yetkazib berish haqida</a></li>
@@ -634,7 +292,15 @@
       </div>
       <p class="footer-end">&copy;&nbsp;2021&nbsp;XCOLOR</p>
     </footer>
-    <script src="typed.js"></script>
-    <script src="script.js"></script>
+    <script src="./js/loader.js"></script>
+            <script src="./js/renderProducts.js"></script>
+    <script src="./js/toggleCardStatus.js"></script>
+    <script src="./js/calcCartPrice.js"></script>
+    <script src="./js/cart.js"></script>
+        <script src="./js/headerSlider.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/timer.js"></script>
+        <script src="./js/counter.js"></script>
+    <script src='./js/index.js'></script>
   </body>
 </html>
