@@ -3,7 +3,6 @@ function carts() {
 
   window.addEventListener("click", function (e) {
     if (e.target.hasAttribute("data-cart")) {
-      e.target.style.color = "blue";
       const card = e.target.closest(".card");
 
       const productInfo = {
