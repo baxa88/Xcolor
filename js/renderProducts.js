@@ -14,7 +14,7 @@ function renderPro() {
   function renderProducts(productsArray) {
     productsArray.forEach(function (item) {
       const productHTML = `
-    <div class="col-md-2">
+    <div class="col-md-2 col-6">
 						<div class="card mb-4" data-id="${item.id}">
 						<i class="fas fa-heart" data-action='heart'></i>
 	<img class="product-img" src="./img-i/${item.imgSrc}" alt="">
