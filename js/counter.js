@@ -13,7 +13,7 @@ function counter() {
       e.target.dataset.action === "minus"
     ) {
       const counterWrapper = e.target.closest(".counter-wrapper");
-      counter = counterWrapper.querySelector("[data-counter]");
+      counter = counterWrapper.querySelector(".items__current");
 
       if (e.target.dataset.action === "plus") {
         counter.innerText = ++counter.innerText;

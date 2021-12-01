@@ -1,6 +1,7 @@
 window.addEventListener("DOMContentLoaded", () => {
   loader();
   renderPro();
+
   headerSlider();
   counter();
   carts();
