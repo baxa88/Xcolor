@@ -1,6 +1,6 @@
 // TIMER-SECTION
 function timer() {
-  let deadline = "2022-01-01";
+  let deadline = "2023-01-01";
 
   function getTime(endtime) {
     const total = Date.parse(endtime) - Date.parse(new Date()),
